@@ -1,0 +1,138 @@
+<html>
+	<head>
+		<title>
+		Golosone
+		</title>
+	</head>
+	<body>
+		<h1><center>Benvenuto sul sito</center></h1>
+		<p><center>compila il modulo rispondendo alle domande</center><p>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h1><center>Sei un golosone?</center></h1>
+		<br>
+		<br>
+		<br>
+		<br>
+		<form action="https://test.ximplia.it/questionario.php" method="get">
+		
+		<table border="0" width="100%">
+		<tr>
+			<td width="50%">
+			<text style="font-size: 30px;">Nome        </text><input type="text" name="nome_utente" id="nome_utente" value="Paolo" style="font-size: 20px;">
+			</td>
+			<td width="50%">
+			<text style="font-size: 30px;">Cognome        </text><input type="text" name="cognome_utente" id="cognome_utente" value="Rossi" style="font-size: 20px;">
+			</td>
+		</table>
+		<br>
+		<table border="1" width="100%">
+		<tr>
+			<td width="50%">
+			<h3>Domanda 1</h3>
+			<p>Perchè vai ad una festa di compleanno?</p>
+			<label for="risposta_1">Seleziona :</label>
+			<select name="risposta_1" id="risposta_1" value="1">
+				<option value=""></option>
+				<option value="1" selected>Per stare con gli amici</option>
+				<option value="2">Dico che è per stare con gli amici ma in realtà è per il buffet</option>
+				<option value="3">Per passare il tempo</option>
+			</select>
+			</td>
+			<td width="50%">
+			<h3>Domanda 2</h3>
+			<p>Quali di queste azioni è più immorale?</p>
+			<label for="risposta_2">Seleziona :</label>
+			<select name="risposta_2" id="risposta_2" value="1">
+				<option value=""></option>
+				<option value="1" selected>Rifiutare della pizza</option>
+				<option value="2">Non aiutare una vecchietta ad attraversare la strada</option>
+			</select>
+			</td>
+		</table>
+		<table border="1" width="100%">
+		<tr>
+			<td width="50%">
+			<h3>Domanda 3</h3>
+			<p>Se non fosse letale, quanto gelato mangeresti al giorno?</p>
+			<div>
+				<input type="radio" name="risposta_3" id="1" value="1">Costantemente nelle pause tra una pizza e l'altra<br>
+				<input type="radio" name="risposta_3" id="2" value="2">Almeno mezzo chilo al giorno<br>
+				<input type="radio" name="risposta_3" id="3" value="2">Non troppo<br>
+			</div>
+			</td>
+			<td width="50%">
+			<h3>Domanda 4</h3>
+			<p>Quando guardi un film o una serie tv...</p>
+			<div>
+				<input type="radio" name="risposta_4" id="1" value="1">Mangio<br>
+				<input type="radio" name="risposta_4" id="2" value="2">Se proprio è un film o una serie tv lunga qualcosa la mangio<br>
+				<input type="radio" name="risposta_4" id="3" value="2">Non mangio<br>
+			</div>
+			</td>
+		</table>
+		<table border="1" width="100%">
+		<tr>
+			<td width="30%">
+			<h3>Domanda 5</h3>
+			<p>Nella pasta alla carbonara ci va l'aglio o la cipolla?</p>
+			<label for="risposta_5">Seleziona :</label>
+			<select name="risposta_5" id="risposta_5" value="1"> <!-- se metto il value, mette quel valore in automatico ma nella select bisogna anche mettere selected di fianco-->
+				<option value=""></option>
+				<option value="1" selected>L'aglio</option>
+				<option value="2">La cipolla</option>
+				<option value="3">Nessuno dei due</option>
+			</select>
+			</td>
+			<td width="20%">
+			<h3>Domanda 6</h3>
+			<p>Il tuo medico ti ha mai detto che sei sovrappeso?</p>
+			<div>
+			<input type="radio" name="risposta_6" id="1" value="1">si<br>
+			<input type="radio" name="risposta_6" id="2" value="2">no<br>
+			</div>
+			</td>
+			<td width="50%">
+			<h3>Domanda 7</h3>
+				<p>Quando un amico ti chiede di assaggiare quello che stai mangiando...</p>
+				<input type="checkbox" id="risposta_7_1" name="risposta_7" value="1">
+				<label for="risposta_7">Segretamente ti salgono istinti animali</label><br>
+				<input type="checkbox" id="risposta_7_2" name="risposta_7" value="2">
+				<label for="risposta_7">Sono contento di poter condividere l'esperienza</label><br>
+				<input type="checkbox" id="risposta_7_3" name="risposta_7" value="3">
+				<label for="risposta_7"> Non me lo chiedono più, sanno che rischiano la vita</label><br>
+				<input type="checkbox" id="risposta_7_4" name="risposta_7" value="4">
+				<label for="risposta_7"> Condivido lamentandomi però come un cammello</label><br>
+			</td>
+		</table>
+		<table border="1" width="100%">
+		<tr>
+			<td width="50%">
+			<h3>Domanda 8</h3>
+			<p>Quando compri qualcosa di buono, sei capace di farla durare qualche giorno?</p>
+			<label for="risposta_8">Seleziona :</label>
+			<select name="risposta_8" id="risposta_8" value="1"> <!-- se metto il value, mette quel valore in automatico ma nella select bisogna anche mettere selected di fianco-->
+				<option value=""></option>
+				<option value="1" selected>no</option>
+				<option value="2">si</option>
+				<option value="3">Per passare il tempo</option>
+			</select>
+			</td>
+			<td width="50%">
+			<h3>Domanda 9</h3>
+			<p>Quando mangi fuori con gli amici a te va di ordinare l'antipasto?</p>
+			<input type="checkbox" id="risposta_9_1" name="risposta_9" value="1">
+			<label for="risposta_9">No, lo trovo di troppo</label><br>
+			<input type="checkbox" id="risposta_9_2" name="risposta_9" value="2">
+			<label for="risposta_9">Se i miei amici lo vogliono, altrimenti non mi cambia</label><br>
+			<input type="checkbox" id="risposta_9_3" name="risposta_9" value="3">
+			<label for="risposta_9"> Io vivo per l’antipasto, il primo, il secondo... e non dimentichiamo il dolce!</label><br>
+			</td>
+		</table>
+		<br>
+		<center><input type="submit" value="Scopri se sei un golosone" style="padding: 15px 32px;"></center>
+		</form>
+	</body>
+</html>
